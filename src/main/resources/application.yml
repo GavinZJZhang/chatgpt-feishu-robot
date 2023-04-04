@@ -1,0 +1,22 @@
+# YAML(.yml/.yaml) YET Another Markup Language ==> JSON子集
+server:
+  port: 8088
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+info:
+  app-name: delonix-chatgpt4
+  author: zzj
+  email: xxx@email
+
+#spring:
+#  application:
+#    name: dchatgpt-web
+#  cloud:
+#    sentinel:
+#      transport:
+#        port: 8719
+#        dashboard: localhost:10113
+#        heartbeat-interval-ms: 10000
